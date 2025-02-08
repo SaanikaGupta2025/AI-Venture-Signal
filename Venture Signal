@@ -1,6 +1,0 @@
-import pandas as pd
-url = "https://raw.githubusercontent.com/SaanikaGupta2025/AI-Venture-Signal/main/ai_startup_data.csv"
-
-startup_data = pd.read_csv(url)
-
-print(startup_data.head(30))
